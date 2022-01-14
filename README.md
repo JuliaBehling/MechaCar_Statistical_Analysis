@@ -24,30 +24,41 @@
 ![lotsummary](https://user-images.githubusercontent.com/90812456/149565059-328c253f-8895-46bd-adb2-93dec45cf3de.png)
 
 ### Takeaway: 
-#### The total lot summary indicates the average PSI for MechaCar is: 1498.78 PSI with a variance of 62.29 PSI. This meets the 100 lbs per square inch variance limitation. 
+* #### The total lot summary indicates the average PSI for MechaCar is: 1498.78 PSI with a variance of 62.29 PSI. This meets the 100 lbs per square inch variance limitation. 
 
-#### When Seperated into 3 lots, Lot3 demonstrated a variance of 170.28. This variance exceeds the limit of 100 and indicates some form of manufactoring error in the lot's suspension coil ability. 
+* #### When Seperated into 3 lots, Lot3 demonstrated a variance of 170.28. This variance exceeds the limit of 100 and indicates some form of manufactoring error in the lot's suspension coil ability. 
 
 ## Deliverable 3: T Test on Suspension Coils
 
 ### Total Manufactoring T-Test:
 ![totalttest](https://user-images.githubusercontent.com/90812456/149566658-e3f153bc-72d5-4712-bc3f-0d5d5386307f.png)
 
-Total Manufactorings' P-value is 0.06. At a significance level of 0.05, we cannotto reject the null hypothesis. Indicating we cannot reject the inference the sample mean is similar to the true population mean. 
+* #### Total Manufactorings' P-value is 0.06. At a significance level of 0.05, we cannotto reject the null hypothesis. Indicating we cannot reject the inference the sample mean is similar to the true population mean. 
 
 ### Individual Lots T-Test:
 ### Lot 1:
 ![lot1](https://user-images.githubusercontent.com/90812456/149567118-bb5e2736-5b45-4d62-93ef-768e9f59795d.png)
 
-#### Lot 1's p-value is 1.0. At a significance level of 0.05, we cannot to reject the null hypothesis. 
+* #### Lot 1's p-value is 1.0. At a significance level of 0.05, we cannot to reject the null hypothesis. 
 
 ### Lot 2:
 ![lot2](https://user-images.githubusercontent.com/90812456/149567138-1820360e-aab5-4ba7-ac2b-aeda4ed11c63.png)
 
-#### Lot 2's p-value is 0.6. AT a signfiicant level of 0.05, we cannot reject the null hypothesis. 
+* #### Lot 2's p-value is 0.6. AT a signfiicant level of 0.05, we cannot reject the null hypothesis. 
 
 ### Lot 3:
 ![lot3](https://user-images.githubusercontent.com/90812456/149567147-51c26207-328e-4306-b218-7e04be24f85d.png)
- #### Lot 3's p-value is 0.48. At a significance level of 0.05, we can reject the null hypothesis. Indicating there may NOT be a correlation between the sample and population means. 
+* #### Lot 3's p-value is 0.48. At a significance level of 0.05, we can reject the null hypothesis. Indicating there may NOT be a correlation between the sample and population means. 
  
 ## Study Design: MechaCar vs Competition
+
+### If we were to create a study comparing Mechacar to prexisting car manufactorers, it would be critical to analyze fuel efficiency via multiple linear regression. Metrics that could be analyzed include:
+* #### Average fuel efficincy. 
+* #### vehicle weight
+* #### vehicle length
+* #### Number of cyliners
+* #### AWD capablities
+* #### Average MPG
+
+
+
