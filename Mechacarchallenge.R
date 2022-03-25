@@ -30,6 +30,7 @@ Lot_Summary <- Suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mea
 
 
 
+
 # Deliverable 3: #
 
 ## T test of PSI accross all manufactoring lots:
